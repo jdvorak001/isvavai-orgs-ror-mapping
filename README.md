@@ -28,6 +28,8 @@ with the following columns:
 5. Override_Name_EN: An override of the English name if we think the one provided in ROR could be improved.
 6. Notes: Any notes about the mapping, esp. about a possible uncertainty.
 
+This file is to be kept sorted: [util/sort-orgs.sh](util/sort-orgs.sh) is the script to sort it.
+
 ## Terms of use
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
