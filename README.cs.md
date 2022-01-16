@@ -1,5 +1,5 @@
-[![cs](https://img.shields.io/badge/lang-cs-white.svg)](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/blob/master/README.cs.md)
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/blob/master/README.md)
+[![cs](https://img.shields.io/badge/lang-cs-white.svg)](./README.cs.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 &larr; <i>English here</i>
 
 # Přiřazení identifikátoru ROR organizacím z IS VaVaI
