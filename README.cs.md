@@ -40,6 +40,13 @@ s následujícími sloupci:
 
 Tento soubor má být udržován setříděný pomocí skriptu [util/sort-orgs.sh](util/sort-orgs.sh).
 
+## Přístup
+
+Poslední verze souboru s přiřazením je vždy k dispozici na  
+[https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/organizations.csv](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/organizations.csv).
+
+Alternativně si můžete naklonovat tento repozitář a přistupovat k souboru `organizations.csv` lokálně. Nezapomeňte si periodicky stahovat změny pomocí příkazu `git pull`.
+
 ## Podmínky použití
 
 Tato datová sada je dána k volnému užití.

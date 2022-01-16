@@ -42,6 +42,13 @@ with the following columns:
 
 This file is to be kept sorted: [util/sort-orgs.sh](util/sort-orgs.sh) is the script to sort it.
 
+## Access
+
+You can always get the latest version of the mapping file from  
+[https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/organizations.csv](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/organizations.csv).
+
+Alternatively, you can clone this repo and access the `organizations.csv` file there. Don't forget to `git pull` from time to time.
+
 ## Terms of use
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
