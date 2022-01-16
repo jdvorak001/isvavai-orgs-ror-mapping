@@ -4,7 +4,12 @@
 #
 
 F=organizations.csv
-sed <$F -e '1w /tmp/isvavai-orgs-heading.csv' -e '1d' \
+PIPEFILE=/tmp/isvavai-orgs-heading.csv
+
+rm -f $PIPEFILE 2>/dev/null
+mkfifo -m 600 $PIPEFILE || exit 1
+sed <$F -e '1w '"$PIPEFILE" -e '1d' \
 | LANG=C sort \
-| cat /tmp/isvavai-orgs-heading.csv - >$F.tmp \
-&& mv $F.tmp $F
+| cat "$PIPEFILE" - >$F.tmp \
+&& mv $F.tmp $F \
+&& echo Total $( expr $( wc -l <$F ) - 1 ) records
