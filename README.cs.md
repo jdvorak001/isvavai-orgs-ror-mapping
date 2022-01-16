@@ -34,8 +34,8 @@ s následujícími sloupci:
 1. IS_VaVaI_id: Identifikátor organizace v IS VaVaI.
 2. IS_VaVaI_Name_CS: Jméno organizace v češtině podle IS VaVaI.
 3. ROR_id: Přiřazený identifikátor ROR.
-4. ROR_Name_EN: Jméno organizace podle ROR.
-5. Override_Name_EN: Přepisující jméno v angličtině, pokud jsme toho názoru, že ROR_Name_EN by si zasloužilo vylepšení.
+4. ROR_Name: Jméno organizace podle ROR.
+5. Override_Name_EN: Přepisující jméno v angličtině, pokud jsme toho názoru, že ROR_Name by si zasloužilo vylepšení.
 6. Notes: Poznámky o přiřazení, zejména o jeho omezeních.
 
 Tento soubor má být udržován setříděný pomocí skriptu [util/sort-orgs.sh](util/sort-orgs.sh).

@@ -36,7 +36,7 @@ with the following columns:
 1. IS_VaVaI_id: The identifier of the organization in IS VaVaI.
 2. IS_VaVaI_Name_CS: The name of the organization in Czech as recorded in the IS VaVaI.
 3. ROR_id: The ROR id of the organization.
-4. ROR_Name_EN: The English name of the organization from ROR.
+4. ROR_Name: The name of the organization from ROR. Mostly in English.
 5. Override_Name_EN: An override of the English name if we think the one provided in ROR could be improved.
 6. Notes: Any notes about the mapping, esp. about a possible uncertainty.
 
