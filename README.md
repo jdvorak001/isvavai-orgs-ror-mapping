@@ -1,3 +1,7 @@
+[![en](https://img.shields.io/badge/lang-en-white.svg)](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/blob/master/README.md)
+[![cs](https://img.shields.io/badge/lang-cs-red.svg)](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/blob/master/README.cs.md)
+&larr; <i>česky zde</i>
+
 # Mapping IS VaVaI Organizations to ROR
 
 This dataset provides the mapping of organizations from the [IS VaVaI](https://www.isvavai.cz/) 
