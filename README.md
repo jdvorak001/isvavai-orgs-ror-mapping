@@ -14,7 +14,7 @@ from public budgets in Czechia or that have participated in such funded projects
 
 This dataset is intended to help put the research information collected in the IS VaVaI into an international context.
 
-It is part of the activities of the [Working Group for Research Data Management](https://www.wg-rdm.cz/).
+It is part of the activities of the [Working Group for Research Data Management in the Czech Republic](https://www.wg-rdm.cz/).
 
 ## Current status
 
@@ -41,33 +41,25 @@ This file is to be kept sorted: [util/sort-orgs.sh](util/sort-orgs.sh) is the sc
 ## Terms of use
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
-  </a>
+  <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" /></a>
   <br />
   To the extent possible under law,
-  <a rel="dct:publisher"
-     href="https://orcid.org/0000-0001-8985-152X">
-    <span property="dct:title">Jan Dvořák</span></a>
-  and other contributors
+  <a rel="dct:publisher" href="https://orcid.org/0000-0001-8985-152X"><span property="dct:title">Jan Dvořák</span></a> and other contributors
   have waived all copyright and related or neighboring rights to
   <span property="dct:title">Mapping IS VaVaI Organizations to ROR</span>.
-This work is published from:
-<span property="vcard:Country" datatype="dct:ISO3166"
-      content="CZ" about="https://github.com/jdvorak001/isvavai-orgs-ror-mapping">
-  Czech Republic</span>.
+  This work is published from <span property="vcard:Country" datatype="dct:ISO3166" content="CZ" about="https://github.com/jdvorak001/isvavai-orgs-ror-mapping"> Czech Republic</span>.
 </p>
 
 ## Contributing
 
 If you found the ROR id for an institution, 
 [edit the organizations.csv](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/edit/main/organizations.csv) file 
-here on GitHub, locate the line with the organization, place the ROR id and the English name from ROR there.
-Make sure you check your changes in the Preview before committing.
-When committing, start a pull request with the title "Add ROR id for ${English name}".
+here on GitHub, place the organization as a new line at the end of the file. 
+Please make sure the line follows the [format description](#format) above,
+use Preview to check your changes before committing.
+When committing, use a message like "Add ROR id for ${English name}" and start a pull request.
 
-Alternatively, if you have looked up a larger number of ROR ids, send them to me 
-in a spreadsheet file or some other similar form and I'll add them for you.
+Alternatively, if you have looked up a larger number of ROR ids, [send](mailto:jan.dvorak@ff.cuni.cz) them to me 
+in a spreadsheet file and I'll add them for you.
 
 By contributing you agree to the the [Terms of use](#terms-of-use).
