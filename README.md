@@ -74,3 +74,10 @@ Alternatively, if you have looked up a larger number of ROR ids, [send](mailto:j
 in a spreadsheet file and I'll add them for you.
 
 By contributing you agree to the the [Terms of use](#terms-of-use).
+
+## Contributors
+
+The project of organizing, maintaining, extending and publishing this dataset 
+is led by [Jan Dvořák](https://orcid.org/0000-0001-8985-152X)
+in affiliation with the [Institute of Information Studies and Librarianship](https://uisk.ff.cuni.cz/en/) 
+of the [Charles University](https://ror.org/024d6js02).

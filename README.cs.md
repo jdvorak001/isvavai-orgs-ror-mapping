@@ -82,3 +82,9 @@ Alternativně, pokud jste dohledali větší počet identifikátorů ROR, [pošl
 je v sešitu a já je přidám za Vás.
 
 Navržením příspěvku souhlasíte s [Podmínkami použití](#podmínky-použití).
+
+## Přispěvatelé
+
+Projekt organizace, údržby, rozšiřování a zveřejňování této datové sady vede [Jan Dvořák](https://orcid.org/0000-0001-8985-152X)
+v afiliaci na [Ústav informačních studií a knihovnictví](https://uisk.ff.cuni.cz/cs/) 
+[Univerzity Karlovy](https://ror.org/024d6js02).
