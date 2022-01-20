@@ -20,10 +20,9 @@ Je také jedním z výstupů [Pracovní skupiny pro správu vědeckých dat v Č
 
 ## Aktuální stav
 
-16.01.2022: 111 organizací:
+20.01.2022: 112 organizací:
 - Všech 26 veřejných vysokých škol, jedna vojenská a jedna státní vysoká škola jsou pokryty. Toto jsou organizace uvedené v [Přílohách 1 a 2 zákona o vysokých školách (zák. č. 111/1998 Sb.)](https://www.zakonyprolidi.cz/cs/1998-111#prilohy).
-- Z [54 ústavů a podpůrných organizačních jednotek](https://www.avcr.cz/cs/o-nas/struktura/pracoviste-av/) [Akademie věd České republiky](https://www.avcr.cz/) je pokrytých 53.
-  - [Slovanskému ústavu Akademie věd České republiky](http://www.slu.cas.cz/index.html) dosud nebyl identifikátor ROR přidělen. [Požádal jsem](https://github.com/ror-community/ror-updates/issues/431) o něj u ROR.
+- Všech [54 ústavů a podpůrných organizačních jednotek](https://www.avcr.cz/cs/o-nas/struktura/pracoviste-av/) [Akademie věd České republiky](https://www.avcr.cz/) je pokryto.
 - Dále jsou pokryty některé další organizace: většinou ty s nejvíce výsledky v RIV. 
 
 ## Formát

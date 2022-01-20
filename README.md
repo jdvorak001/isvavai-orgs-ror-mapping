@@ -22,10 +22,9 @@ It is part of the activities of the [Working Group for Research Data Management 
 
 ## Current status
 
-2022-01-16: 111 organizations:
+2022-01-20: 112 organizations:
 - All the 26 public universities, one military university and one state university are covered. These are the organizations listed in Annexes 1 and 2 of the [Higher Education Act](https://www.msmt.cz/areas-of-work/tertiary-education/the-higher-education-act) of the Czech Republic.
-- Of the [54 institutes and support units](https://www.avcr.cz/en/about-us/cas-structure/research-institutes/) of the [Academy of Sciences of the Czech Republic](https://www.avcr.cz/en/about-us/mission-of-the-cas/), 53 are covered. 
-  - One, the Institute of Slavonic Studies of the CAS ([Slovanský ústav Akademie věd České republiky](http://www.slu.cas.cz/index.html)), has not been assigned a ROR id yet. I've filed a [request](https://github.com/ror-community/ror-updates/issues/431) with ROR.
+- All the [54 institutes and support units](https://www.avcr.cz/en/about-us/cas-structure/research-institutes/) of the [Academy of Sciences of the Czech Republic](https://www.avcr.cz/en/about-us/mission-of-the-cas/) are covered. 
 - Some other organizations, mostly those which had reported considerable numbers of research outputs in the IS VaVaI/RIV, are covered. 
 
 ## Format
