@@ -20,7 +20,9 @@ This dataset is intended to help put the research information collected in the I
 
 It is part of the activities of the [Working Group for Research Data Management in the Czech Republic](https://www.wg-rdm.cz/).
 
-## Current status
+## Changelog
+
+2022-06-03: replace "... of the CAS" with "... of the Czech Academy of Sciences" in the English override names
 
 2022-01-20: 112 organizations:
 - All the 26 public universities, one military university and one state university are covered. These are the organizations listed in Annexes 1 and 2 of the [Higher Education Act](https://www.msmt.cz/areas-of-work/tertiary-education/the-higher-education-act) of the Czech Republic.

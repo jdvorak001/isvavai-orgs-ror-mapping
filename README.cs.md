@@ -18,7 +18,9 @@ Tato datová sada chce pomoci zapojit údaje IS VaVaI do mezinárodního kontex
 
 Je také jedním z výstupů [Pracovní skupiny pro správu vědeckých dat v ČR](https://www.wg-rdm.cz/).
 
-## Aktuální stav
+## Seznam změn
+
+03.06.2022: u pracovišť Akademie věd ČR změněno "... of the CAS" na "... of the Czech Academy of Sciences"
 
 20.01.2022: 112 organizací:
 - Všech 26 veřejných vysokých škol, jedna vojenská a jedna státní vysoká škola jsou pokryty. Toto jsou organizace uvedené v [Přílohách 1 a 2 zákona o vysokých školách (zák. č. 111/1998 Sb.)](https://www.zakonyprolidi.cz/cs/1998-111#prilohy).
