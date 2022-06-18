@@ -14,5 +14,5 @@ grep -oh -e ',https://ror\.org/0........,' $F \
 
 for X in "$D"/0??????[0-9][0-9]
 do
-	python3 -m json.tool <"$X" >"$X".json && rm "$X"
+	python3 -m json.tool --no-ensure-ascii --sort-keys --tab <"$X" >"$X".json && rm "$X"
 done
