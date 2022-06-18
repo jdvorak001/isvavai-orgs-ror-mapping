@@ -22,7 +22,7 @@ It is part of the activities of the [Working Group for Research Data Management 
 
 ## Changelog
 
-2022-06-XX: add the funders from the IS VaVaI
+2022-06-18: add the funders from the IS VaVaI
 
 2022-06-18: update the ROR names in our file with those from API following the [ROR 1.1 release](https://doi.org/10.5281/zenodo.6657125)
 
@@ -35,7 +35,8 @@ It is part of the activities of the [Working Group for Research Data Management 
 
 ## Format
 
-The data about the research performing organizations is held in **[organizations.csv](organizations.csv)**, 
+### Organizations — [organizations.csv](organizations.csv)
+The data about the research performing organizations, 
 a UTF-8 encoded file in the Comma Separated Values format
 with the following columns:
 1. IS_VaVaI_id: The identifier of the organization in IS VaVaI.
@@ -47,7 +48,8 @@ with the following columns:
 
 This file is to be kept sorted: [util/sort-orgs.sh](util/sort-orgs.sh) is the script to sort it.
 
-The data about the research performing organizations is held in **[funders.csv](funders.csv)**, 
+### Funders — [funders.csv](funders.csv)
+The data about the IS VaVaI funders, 
 a UTF-8 encoded file in the Comma Separated Values format
 with the following columns:
 1. IS_VaVaI_code: The code of the funder in IS VaVaI.
@@ -56,7 +58,8 @@ with the following columns:
 4. ROR_id: The ROR id of the organization.
 5. ROR_Name: The name of the organization from ROR. Mostly in English.
 6. Override_Name_EN: An override of the English name if we think the one provided in ROR could be improved.
-7. Notes: Any notes about the mapping, esp. about a possible uncertainty.
+7. FundRef_id: The Crossref Fundref ID (use the prefix `https://doi.org/10.13039/` to access the [Funder Registry](https://www.crossref.org/services/funder-registry/) record).
+8. Notes: Any notes about the mapping, esp. about a possible uncertainty.
 
 This file is to be kept sorted: [util/sort-funders.sh](util/sort-funders.sh) is the script to sort it.
 

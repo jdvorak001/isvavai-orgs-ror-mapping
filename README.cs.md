@@ -20,7 +20,7 @@ Je také jedním z výstupů [Pracovní skupiny pro správu vědeckých dat v Č
 
 ## Seznam změn
 
-XX.06.2022: přidáni poskytovatelé
+18.06.2022: přidáni poskytovatelé
 
 18.06.2022: aktualizována jména organizací podle ROR (staženo z API po [vydání ROR 1.1](https://doi.org/10.5281/zenodo.6657125))
 
@@ -33,8 +33,9 @@ XX.06.2022: přidáni poskytovatelé
 
 ## Formát
 
-Data jsou umístěna v souboru **[organizations.csv](organizations.csv)**, 
-což je soubor typu CSV v kódování UTF-8
+### Organizace — [organizations.csv](organizations.csv)
+Data o organizacích provádějících výzkum;
+soubor typu CSV v kódování UTF-8
 s následujícími sloupci:
 1. IS_VaVaI_id: Identifikátor organizace v IS VaVaI.
 2. IS_VaVaI_Name_CS: Jméno organizace v češtině podle IS VaVaI.
@@ -42,6 +43,21 @@ s následujícími sloupci:
 4. ROR_Name: Jméno organizace podle ROR.
 5. Override_Name_EN: Přepisující jméno v angličtině, pokud jsme toho názoru, že ROR_Name by si zasloužilo vylepšení.
 6. Notes: Poznámky o přiřazení, zejména o jeho omezeních.
+
+Tento soubor má být udržován setříděný pomocí skriptu [util/sort-orgs.sh](util/sort-orgs.sh).
+
+### Poskytovatelé — [funders.csv](funders.csv)
+Data o poskytovatelích z IS VaVaI; 
+soubor typu CSV v kódování UTF-8
+s následujícími sloupci:
+1. IS_VaVaI_code: Kód poskytovatele v IS VaVaI.
+2. IS_VaVaI_Name_CS: Jméno poskytovatele v češtině podle IS VaVaI.
+3. IS_VaVaI_Name_EN: Jméno poskytovatele v angličtině podle IS VaVaI.
+4. ROR_id: Přiřazený identifikátor ROR.
+5. ROR_Name: Jméno organizace podle ROR.
+6. Override_Name_EN: Přepisující jméno v angličtině, pokud jsme toho názoru, že ROR_Name by si zasloužilo vylepšení.
+7. FundRef_id: Proměnná část identifikátoru poskytovatele v Crossref [Funder Registry](https://www.crossref.org/services/funder-registry/) (pomocí prefixu `https://doi.org/10.13039/` lze přistoupit k záznamu).
+8. Notes: Poznámky o přiřazení, zejména o jeho omezeních.
 
 Tento soubor má být udržován setříděný pomocí skriptu [util/sort-orgs.sh](util/sort-orgs.sh).
 
