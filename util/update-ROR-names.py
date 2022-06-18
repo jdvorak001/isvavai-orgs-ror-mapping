@@ -13,8 +13,9 @@ for filename in sys.argv[1:]:
     filename_tmp = filename + ".tmp"
     with open( filename ) as fin:
         reader = csv.DictReader( fin )
+        fields = reader.fieldnames
         with open( filename_tmp, 'w', newline='' ) as fout:
-            writer = csv.DictWriter( fout, reader.fieldnames, dialect=reader.dialect, quoting=csv.QUOTE_MINIMAL )
+            writer = csv.DictWriter( fout, fields, dialect=reader.dialect, quoting=csv.QUOTE_MINIMAL )
             writer.writeheader()        
             for row in reader:
                 ror_id = row['ROR_id']
@@ -24,6 +25,12 @@ for filename in sys.argv[1:]:
                     row['ROR_Name'] = ror_record['name']
                     if row['ROR_Name'] == row['Override_Name_EN']:
                         row['Override_Name_EN'] = ''
+                    if 'FundRef_id' in fields:
+                        fundref_ids = ror_record['external_ids'].get('FundRef')
+                        print( "was here: " + str(fundref_ids))
+                        if fundref_ids != None:
+                            preferred_fundref_id = fundref_ids['preferred']
+                            row['FundRef_id'] = preferred_fundref_id if preferred_fundref_id != None else fundref_ids['all'][0]
                 writer.writerow( row )
     
     shutil.move( filename_tmp, filename )
