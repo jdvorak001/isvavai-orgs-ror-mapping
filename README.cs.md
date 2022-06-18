@@ -20,7 +20,12 @@ Je také jedním z výstupů [Pracovní skupiny pro správu vědeckých dat v Č
 
 ## Seznam změn
 
-18.06.2022: přidáni poskytovatelé
+2022-06-18: 178 organizací: 
+Přidána většina z organizací ze souboru **CEA-prijemce.csv** z [části webu IS VaVaI věnovaného otevřeným datům](https://www.isvavai.cz/open-data).
+Soubor obsahuje příjemce podpory na dlouhodobý koncepční rozvoj výzkumné organizaceod roku 2010. 
+Chybějící organizace jsou vypsané v souboru [organizations-wanted.csv](organizations-wanted.csv).
+
+18.06.2022: přidáno 38 poskytovatelů z IS VaVaI (24 má ROR id, 12 má FundRef id)
 
 18.06.2022: aktualizována jména organizací podle ROR (staženo z API po [vydání ROR 1.1](https://doi.org/10.5281/zenodo.6657125))
 

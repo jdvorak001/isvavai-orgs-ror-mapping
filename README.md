@@ -22,7 +22,11 @@ It is part of the activities of the [Working Group for Research Data Management 
 
 ## Changelog
 
-2022-06-18: add the funders from the IS VaVaI
+2022-06-18: 178 organizations: added most of the organizations from the **CEA-prijemce.csv** found at the [IS VaVaI Open Data site](https://www.isvavai.cz/open-data).
+The file contains beneficiaries of block funding based on the status of Research Organization since 2010. 
+The missing organizations are listed in [organizations-wanted.csv](organizations-wanted.csv).
+
+2022-06-18: add the 38 funders from the IS VaVaI (24 have a ROR id, 12 have a FundRef id)
 
 2022-06-18: update the ROR names in our file with those from API following the [ROR 1.1 release](https://doi.org/10.5281/zenodo.6657125)
 
