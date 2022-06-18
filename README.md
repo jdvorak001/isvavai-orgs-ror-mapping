@@ -22,6 +22,8 @@ It is part of the activities of the [Working Group for Research Data Management 
 
 ## Changelog
 
+2022-06-18: update the ROR names in our file with those from API following the [1.1 release](https://doi.org/10.5281/zenodo.6657125)
+
 2022-06-03: replace "... of the CAS" with "... of the Czech Academy of Sciences" in the English override names
 
 2022-01-20: 112 organizations:

@@ -20,6 +20,8 @@ Je také jedním z výstupů [Pracovní skupiny pro správu vědeckých dat v Č
 
 ## Seznam změn
 
+18.06.2022: aktualizována jména organizací podle ROR (staženo z API po [vydání ROR 1.1](https://doi.org/10.5281/zenodo.6657125))
+
 03.06.2022: u pracovišť Akademie věd ČR změněno "... of the CAS" na "... of the Czech Academy of Sciences"
 
 20.01.2022: 112 organizací:
