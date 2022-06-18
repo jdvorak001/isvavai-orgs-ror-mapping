@@ -2,10 +2,10 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 &larr; <i>English here</i>
 
-# Přiřazení identifikátoru ROR organizacím z IS VaVaI
+# Přiřazení identifikátoru ROR organizacím a poskytovatelům z IS VaVaI
 
 Tato datová sada obsahuje přiřazení identifikátoru [ROR](https://ror.org/) (Research Organizations Registry) 
-organizacím z [IS VaVaI](https://www.isvavai.cz/) (Informační systém výzkumu, vývoje a inovací).
+organizacím a poskytovatelům z [IS VaVaI](https://www.isvavai.cz/) (Informační systém výzkumu, vývoje a inovací).
 
 ## Rozsah
 
@@ -19,6 +19,8 @@ Tato datová sada chce pomoci zapojit údaje IS VaVaI do mezinárodního kontex
 Je také jedním z výstupů [Pracovní skupiny pro správu vědeckých dat v ČR](https://www.wg-rdm.cz/).
 
 ## Seznam změn
+
+XX.06.2022: přidáni poskytovatelé
 
 18.06.2022: aktualizována jména organizací podle ROR (staženo z API po [vydání ROR 1.1](https://doi.org/10.5281/zenodo.6657125))
 

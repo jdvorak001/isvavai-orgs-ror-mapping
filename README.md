@@ -2,9 +2,9 @@
 [![cs](https://img.shields.io/badge/lang-cs-red.svg)](./README.cs.md)
 &larr; <i>česky zde</i>
 
-# Mapping IS VaVaI Organizations to ROR
+# Mapping IS VaVaI Organizations and Funders to ROR
 
-This dataset provides the mapping of organizations from the [IS VaVaI](https://www.isvavai.cz/) 
+This dataset provides the mapping of organizations and funders from the [IS VaVaI](https://www.isvavai.cz/) 
 (the national [CRIS](https://en.wikipedia.org/wiki/Current_research_information_system) 
 in [Czechia](https://en.wikipedia.org/wiki/Czech_Republic)) 
 to [ROR](https://ror.org/), the international Research Organization Registry.
@@ -12,7 +12,7 @@ to [ROR](https://ror.org/), the international Research Organization Registry.
 ## Scope
 
 The IS VaVaI tracks organizations that received funding for research, technology development and innovation 
-from public budgets in Czechia or that have participated in such funded projects.
+from public budgets in Czechia or that have participated in such funded projects. Also the funders of these projects are registered.
 
 ## Aim
 
@@ -22,7 +22,9 @@ It is part of the activities of the [Working Group for Research Data Management 
 
 ## Changelog
 
-2022-06-18: update the ROR names in our file with those from API following the [1.1 release](https://doi.org/10.5281/zenodo.6657125)
+2022-06-XX: add the funders from the IS VaVaI
+
+2022-06-18: update the ROR names in our file with those from API following the [ROR 1.1 release](https://doi.org/10.5281/zenodo.6657125)
 
 2022-06-03: replace "... of the CAS" with "... of the Czech Academy of Sciences" in the English override names
 
@@ -33,7 +35,7 @@ It is part of the activities of the [Working Group for Research Data Management 
 
 ## Format
 
-The data is held in **[organizations.csv](organizations.csv)**, 
+The data about the research performing organizations is held in **[organizations.csv](organizations.csv)**, 
 a UTF-8 encoded file in the Comma Separated Values format
 with the following columns:
 1. IS_VaVaI_id: The identifier of the organization in IS VaVaI.
@@ -45,12 +47,26 @@ with the following columns:
 
 This file is to be kept sorted: [util/sort-orgs.sh](util/sort-orgs.sh) is the script to sort it.
 
+The data about the research performing organizations is held in **[funders.csv](funders.csv)**, 
+a UTF-8 encoded file in the Comma Separated Values format
+with the following columns:
+1. IS_VaVaI_code: The code of the funder in IS VaVaI.
+2. IS_VaVaI_Name_CS: The name of the funder in Czech as recorded in the IS VaVaI.
+3. IS_VaVaI_Name_EN: The name of the funder in English as recorded in the IS VaVaI.
+4. ROR_id: The ROR id of the organization.
+5. ROR_Name: The name of the organization from ROR. Mostly in English.
+6. Override_Name_EN: An override of the English name if we think the one provided in ROR could be improved.
+7. Notes: Any notes about the mapping, esp. about a possible uncertainty.
+
+This file is to be kept sorted: [util/sort-funders.sh](util/sort-funders.sh) is the script to sort it.
+
 ## Access
 
-You can always get the latest version of the mapping file from  
-[https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/organizations.csv](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/organizations.csv).
+You can always get the latest version of the mapping files from  
+[https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/organizations.csv](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/organizations.csv) and
+[https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/funders.csv](https://github.com/jdvorak001/isvavai-orgs-ror-mapping/raw/main/funders.csv), respectively.
 
-Alternatively, you can clone this repo and access the `organizations.csv` file there. Don't forget to `git pull` from time to time.
+Alternatively, you can clone this repo and access the `organizations.csv` and `funders.csv` files there. Don't forget to `git pull` from time to time.
 
 ## Terms of use
 
